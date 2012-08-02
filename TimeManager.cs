@@ -1,7 +1,7 @@
 /// <summary>
 /// Time Manager.
 /// Time.deltaTime independent Time.timeScale Lerp.
-/// Author: Fabio Paes Pedro
+/// Author: Fliperamma | Fabio Paes Pedro
 /// </summary>
 /// 
 
