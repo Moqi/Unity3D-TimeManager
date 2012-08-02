@@ -35,8 +35,8 @@ public class TimeManager : MonoBehaviour
 			EditorMode = false;
 		#endif
 		#if UNITY_EDITOR
-      		EditorMode = true;
-    	#endif
+      			EditorMode = true;
+    		#endif
 		
 		
 		instance = this;
@@ -97,10 +97,8 @@ public class TimeManager : MonoBehaviour
 		// Senao apenas dar o Toggle.
 		_willPause = _willPause == true ? false : !IsPaused;
 		if(_willPause){
-			Debug.Log("PAUSE");
 			Pause (time);
 		}else{
-			Debug.Log("PLAY");
 			Play (time, playScale);
 		}
 	}
